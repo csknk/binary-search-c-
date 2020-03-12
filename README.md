@@ -22,7 +22,9 @@ int binarySearch(int A[], int targetValue, int low, int high)
 }
 ```
 
-The second example arose when trying out an online course, with a web-based terminal that black box tests your function. In this case, the function signature was limited to three parameters: an integer array, a target integer to search for, and an integer length.
+The second example arose when trying out an online course, with a web-based terminal that black box tests your function.
+
+In this case, the function signature was limited to three parameters: an integer array, a target integer to search for, and an integer length.
 
 The solution involves carrying the index offset during recursive calls by setting a `static` variable appropriately:
 
@@ -50,7 +52,7 @@ int binarySearch2(int A[], int targetValue, int len)
 	}
 }
 ```
-This method required a bit nore thought in order to calculate the middle index and the new length for the next recursive call. 
+This method required a bit more thought in order to calculate the middle index and the new length for the next recursive call. 
 
 
 
